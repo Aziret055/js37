@@ -42,6 +42,8 @@ const Home = () => {
 		getProduct()
 	}, [])
 
+	console.log(todo)
+
 	return (
 		<div id='home'>
 			<h1>TO DO LIST</h1>
