@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+#home {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 200px;
+	gap: 40px;
+}
+.home {
+	display: flex;
+	align-items: center;
+}
+.home input {
+	padding: 10px 30px;
+	border: 1px solid black;
+	outline: none;
+	border-radius: 5px;
+}
+
+.home button {
+	font-weight: 600;
+	padding: 10px 30px;
+	border: 1px solid black;
+	outline: none;
+	border-radius: 5px;
+}
+.list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	padding: 50px 0;
+}
